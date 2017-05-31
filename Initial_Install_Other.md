@@ -1,4 +1,4 @@
-![Logo](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/APsolo.jpg)
+![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
 Instructions
 ------------
@@ -15,7 +15,7 @@ These instructions currently assume you already know how to use things like Miss
 5. **Unscrew the stock pixhawk:** There are 4 very small screws on the top of the carrier board. Unscrew them and set them aside. The stock pixhawk can now be removed. It will pull down off the carrier board. Set the stock pixhawk aside somewhere safe. You will want to keep it.
 
 6. **Install the green cube:** The green cube installs the same way the old one came off.  Plug it into the carrier board from the bottom.  Then put in the four screws.
-   ![Guts](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/guts.jpg)
+   ![Guts](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/guts.jpg)
 
 7. **Do not reassemble yet:** It is best to do the initial firmware install with the Solo still opened up. If anything goes wrong, it avoids having to disassemble it again. 
 

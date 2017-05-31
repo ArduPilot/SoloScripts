@@ -1,4 +1,4 @@
-![Logo](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/APsolo.jpg)
+![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
 Initial First Time Install Using the Solex App
 -----------------------------------------------
@@ -8,7 +8,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 
 2. **Update px_uploader:** Before doing anything else, you must load the new `px_uploader.py` file onto the Solo's companion computer. This can be loaded with the Solex app's firmware update function really easily with a few clicks! Select the `first-time-bootloader.zip` package. If it it says "available", Solex will download it. Once it says "downloaded, click the file and select install. When prompted, click the reboot button in the app.  The Solo will lose connection for about a minute while the companion computer reboots. It will then reconnect to the controller and application after booting
 
-   ![SolexScreenshot](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/Solex_Screenshot.jpg)
+   ![SolexScreenshot](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/Solex_Screenshot.jpg)
 
 3. **Remove the battery tray:** Remove the battery and pop off the GPS cover.  Then unscrew all the small black screws around the battery tray. The battery tray can now be lifted up.  Unplug the GPS from the carrier board.  Set the battery tray aside. We highly recommend you do not lose the screws.
 
@@ -17,7 +17,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 5. **Unscrew the stock pixhawk:** There are 4 very small screws on the top of the carrier board. Unscrew them and set them aside. The stock pixhawk can now be removed. It will pull down off the carrier board. Set the stock pixhawk aside somewhere safe. You will want to keep it.
 
 6. **Install the green cube:** The green cube installs the same way the old one came off.  Plug it into the carrier board from the bottom.  Then put in the four screws.
-  ![Guts](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/guts.jpg)
+  ![Guts](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/guts.jpg)
   
 7. **Do not reassemble yet:** It is best to do the initial firmware install with the Solo still opened up. If anything goes wrong, it avoids having to disassemble it again. 
 

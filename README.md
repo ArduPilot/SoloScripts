@@ -1,4 +1,4 @@
-![Logo](https://github.com/Pedals2Paddles/SoloBeta/blob/master/Misc/APsolo.jpg)
+![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
 Welcome to the repository for integrating ArduPilot master onto the 3DR Solo! This is the central location for information, instructions, and files. 
 
