@@ -51,3 +51,10 @@ Initial First Time Install _without_ Solex
 -----------------------------------------------
 These instructions currently assume you already know how to use things like Mission Planner and WinSCP or Filezilla. Multiple applications and processes are required. I cannot provide detailed step by training on how to use these applications.
 [SCP & Mission Planner method intial install instructions](../master/Initial_Install_Other.md)
+
+
+Subsequent Updates
+-------------------
+Once you're already on the Green Cube and master, you can follow these much shorter instructions to install subsequent updates. This is _not_ for initial first time install.
+[Install updates with Solex](../master/Updates_Solex.md)
+
