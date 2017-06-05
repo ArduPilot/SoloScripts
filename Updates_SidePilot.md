@@ -1,4 +1,4 @@
-![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APSolo.jpg)
+![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
 Installing Updates Using SidePilot
 -----------------------------------------------
