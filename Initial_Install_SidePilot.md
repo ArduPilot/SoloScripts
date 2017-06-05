@@ -19,7 +19,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 
 2. **Update px_uploader:** Before doing anything else, you must load the new `px_uploader.py` file onto the Solo's companion computer. This can be loaded with the SidePilot app's firmware update function really easily with a few clicks! Select 'First Time Bootloader'. This will copy over the correct files to the correct locations. Once complete, it will prompt you to reboot Solo. Simply turn Solo off and on. It will then reconnect to the controller and application after booting
 
-   ![SolexScreenshot](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/SidePilot_Screenshot.jpg)
+   ![SidePilotScreenshot](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/SidePilot_Screenshot.jpg)
 
 3. **Remove the battery tray:** Remove the battery and pop off the GPS cover.  Then unscrew all the small black screws around the battery tray. The battery tray can now be lifted up.  Unplug the GPS from the carrier board.  Set the battery tray aside. We highly recommend you do not lose the screws.
 
