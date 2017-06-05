@@ -51,7 +51,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 
 11. **Connect and Check:** Tun the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
 
-12. **Calibrations:** Once all of this done, you will need to do a level calibration and a compass calibration. As of today, only the 3DR Solo app can do these functions. This is not yet in Solex.
+12. **Calibrations:** Once all of this done, you will need to do a level calibration and a compass calibration. As of today, only the 3DR Solo app can do these functions. This is not yet in SidePilot.
     * Do the level calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before clicking through to the next one. Once complete, reboot the Solo.
     * The compass calibration must be done outdoors and away from structures, vehicles, and other metal objects. This applies to any vehicle running any firmware, not just a Solo, and not just ArduCopter master. Once complete, reboot the Solo.
 
