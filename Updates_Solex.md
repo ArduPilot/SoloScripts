@@ -6,7 +6,7 @@ These instructions are for installing subsequent updates to the Solo. _This is N
 
 1. With your device connected to the internet: In the Solex menu all the way at the bottom, select `Firmware Updates`.
 
-2. If the available packages are not shown, click refresh. But they should load automaically as long as you have an internet connection.
+2. If the available packages are not shown, click refresh at the bottom right. But they should load automaically as long as you have an internet connection.
 
 3. Click the package you wish to download.  The _available_ status will change to _downloaded_.
 
@@ -16,17 +16,21 @@ These instructions are for installing subsequent updates to the Solo. _This is N
 
 6. Read the notice and select `install`. All the files will be copied to the Solo in all the right places.
 
-7. When prompted, click `reboot vehicle`.
-    * The solo will disconnect from the controller and app. Don't worry. It's working.
-    * It will probably do the radio connection lost blinking LEDs since the companion computer is not connected to the pixhawk anymore. Don't worry. It's working.
-    * You will probably not see the multi-color disco lights usually associate with firmware updates on the solo. Don't worry. It's working.
+7. When prompted, power cycle the solo (which means turn it off and back on again).
+
+8a. If you've only installed a parameters package or IMX python package, the solo will reboot and reconnect as usual. Skip to step 10.
+
+8b. If you've installed a pixhawk firmware package:
+    * The solo will reboot, then go into bootloader and flash the firmware.
+    * Normally you will see disco lights while it's doing this. But if the LED driver isn't enabled, you may not. Don't worry. It's working.
     * Give it up to 5 minutes to process this awesomeness. You may hear some clicks as the Pixhawk reboots.
+    * If after 3-5 minutes, it has not come back to life, power cycle the solo. Some users have had to do this 2-3 times, but it always works.
     
 8. **Installation complete!** After 3-5 minutes, it will come back to life, reconnecting with the controller and applications. 
 
-9. If a parameter reset has been recommended: With the Solex app reconnected to the Solo, click the `Reset Params` button on the Firmware Update screen of Solex.  When prompted, power off the Solo and power it back on. Calibrations will need to be redone in step 11.
+9. If a parameter reset has been recommended: With the Solex app reconnected to the Solo, click the `Reset Params` button on the Firmware Update screen of Solex.  When prompted, power cycle the solo. Calibrations will need to be redone in step 11.
 
-10. **Connect and Check:** Tun the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
+10. **Connect and Check:** Turn the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, Tower, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
 
 11. **Calibrations:** If you reset the parameters, you will need to redo the calibrations. If anything seems unstable in flight, you should redo the calibrations. As of today, only the 3DR Solo app can do these functions. This is not yet in Solex.
     * Do the level calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before clicking through to the next one. Once complete, reboot the Solo.
