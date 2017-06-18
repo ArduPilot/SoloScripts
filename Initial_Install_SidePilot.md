@@ -15,7 +15,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 5. If connected to Solo, your current firmware version will display, as well as the latest version available. You must have an internet connection.
 
 6. Select 'Download Firmware Update'. The package will be downloaded to your device. Once downloaded the 'First Time Bootloader' and 'Intall Update' buttons will become available.
-    * This may fail once or twice, simply select 'Download Firmware Update' again.
+    * If this fails, check your internet connection and try again.
 
 2. **Update px_uploader:** Before doing anything else, you must load the new `px_uploader.py` file onto the Solo's companion computer. This can be loaded with the SidePilot app's firmware update function really easily with a few clicks! Select 'First Time Bootloader'. This will copy over the correct files to the correct locations. Once complete, it will prompt you to reboot Solo. Simply turn Solo off and on. It will then reconnect to the controller and application after booting
 
@@ -42,18 +42,19 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
  * You will probably not see the multi-color disco lights usually associate with firmware updates on the solo. Don't worry. It's working.
  * Give it up to 5 minutes to process this awesomeness. You may hear some clicks as the Pixhawk reboots.
  * After 3-5 minutes, it will come back to life, reconnecting with the controller and applications. You will notice the lights now look like an aircraft rather than a car.
- * With the SidePilot app reconnected to the Solo, click the `Reset Parameters` button on the firmware update screen of SidePilot.  When prompted, power off the Solo and power it back on.
+ * With the SidePilot app reconnected to the Solo, navigate to the Parameters menu and tap 'Load Params'. You should see the loading bar moving across the screen until all parameters appear.
+ * Navigate back to the Firmware update screen and click the `Reset Parameters` button. This may take a while. When prompted, power off the Solo and power it back on.
  * Installation complete!
  
     _If the Solo doesn't seem to complete the installation after about 5 minutes, power off the Solo and power it back on.  A few people have experienced this. It took a few power cycles to get it go through. It is unknown why this happens.  But in those cases, power cycling 1-4 times got it to go._
 
 10. **Reassemble the Solo** once the installation has completed successfully. Make sure you don't have any screws left over.  Make sure all the wires, including the GPS, are plugged back in.
 
-11. **Connect and Check:** Tun the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
+11. **Connect and Check:** Tun the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, etc) and test functionality. Run the turtle/rabbit sliders (found under Calibration -> Performance settings in SidePilot) for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
 
-12. **Calibrations:** Once all of this done, you will need to do a level calibration and a compass calibration. As of today, only the 3DR Solo app can do these functions. This is not yet in SidePilot.
-    * Do the level calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before clicking through to the next one. Once complete, reboot the Solo.
-    * The compass calibration must be done outdoors and away from structures, vehicles, and other metal objects. This applies to any vehicle running any firmware, not just a Solo, and not just ArduCopter master. Once complete, reboot the Solo.
+12. **Calibrations:** Once all of this done, you will need to do a level calibration and a compass calibration. You can do this in the SidePilot app by navigating to the Calibration menu and performing an Accelerometer and then a Compass calibration.
+    * Do the accelerometer calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before tapping next. Once complete, turn Solo off and on.
+    * The compass calibration must be done outdoors and away from structures, vehicles, and other metal objects. This applies to any vehicle running any firmware, not just a Solo, and not just ArduCopter master. Once complete, turn Solo off and on.
 
 13. **FLY!** Once all of the above is complete, you are ready to fly! You should make your first few flights in a safe, open, and clear area. Start off low and slow. Run through the basics to function test everything.  Make sure the Solo is operating smoothly, reliably, safely, and as intended.
 
