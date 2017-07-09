@@ -14,9 +14,9 @@ These instructions use [WinSCP](https://winscp.net/eng/download.php) for moving 
   ![WinSCP Settings](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/winscp_settings.jpg)
   ![WinSCP Directories](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/winscp_directories.jpg)
 
-These instructions require the use of the [Mission Planner](http://ardupilot.org/planner/docs/common-install-mission-planner.html) ground station application for Windows. The necessary settings for Mission Planner are pictured below. You need the layout drop down set for advanced and the connection drop down set for UDP. To connect to the Solo, your PC must be connected to the Solo's WiFi. Press the connect button. Mission Planner will connect to the Solo's Pixhawk and download all it's parameters. Once connected, you will get many more options in config/tuning.
+These instructions require the use of the [Mission Planner](http://ardupilot.org/planner/docs/common-install-mission-planner.html) ground station application for Windows. The necessary settings for Mission Planner are pictured below. They are in the Config/Tuning > Planner sexction. You need the layout drop down set for advanced and the connection drop down set for UDP. To connect to the Solo, your PC must be connected to the Solo's WiFi. Press the connect button. Mission Planner will connect to the Solo's Pixhawk and download all it's parameters. Once connected, you will get many more options in config/tuning.
 ![MP Settings](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/mission_planner_settings.jpg)
-
+JPG
 
 1. **Your solo should be in safe working order before you start**. It should not be malfunctioning or unreliable before you even begin. It must be up to date with the latest 3DR firmware. You cannot do this with a straight out of the box Solo. You must go through the full pre-flight update first on a new Solo.  Once your Solo is up to date and working well, you're ready to begin.
 
@@ -33,7 +33,7 @@ These instructions require the use of the [Mission Planner](http://ardupilot.org
    ![Pixhawk screws](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/pixhawk_screws.jpg)
 
 6. **Install the green cube:** The green cube installs the same way the old one came off.  Plug it into the carrier board from the bottom.  Then put in the four screws.
-  ![cube installed](https://github.co!/ArduPilot/SoloScripts/blob/master/Misc/cube_installed.jpg)
+  ![cube installed](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/cube_installed.jpg)
   
 7. **Do not reassemble yet:** It is best to do the initial firmware install with the Solo still opened up. If anything goes wrong, it avoids having to disassemble it again. 
 
