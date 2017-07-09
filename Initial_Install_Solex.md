@@ -14,7 +14,6 @@ These instructions are for _first time installs of the Green Cube and ArduCopter
 
 4. **Lift up the carrier board:** Locate the comparatively large silver screw on the right side toward the front. Unscrew that and set it aside with all the other screws that you're not going to lose.  The carrier board can not be lifted up very carefully.  You will need to fidget with the wires from the motor pods a bit.  The board will need to go up a bit, then shift back, then shift up the rest of the way. The left side can go up higher than the right, which is convenient.  It's kind of tight and generally annoying.  Be careful not to break the small wires.  Don't break any of the other wires either.  You will need to get the board high enough up to expose the Pxhawk mounted underneath it.  It's the black cube looking device.
    ![carrier screw](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/carrier_retainer_screw.jpg)
-   
    ![wires](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/carrier_board_wires.jpg)
 
 5. **Unscrew the stock pixhawk:** There are 4 very small screws on the top of the carrier board. Unscrew them and set them aside. The stock Pixhawk can now be removed. It will pull down off the carrier board. Set the stock Pixhawk aside somewhere safe. You will want to keep it.
