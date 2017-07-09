@@ -15,8 +15,8 @@ These instructions use [WinSCP](https://winscp.net/eng/download.php) for moving 
   ![WinSCP Directories](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/winscp_directories.jpg)
 
 These instructions require the use of the [Mission Planner](http://ardupilot.org/planner/docs/common-install-mission-planner.html) ground station application for Windows. The necessary settings for Mission Planner are pictured below. They are in the Config/Tuning > Planner sexction. You need the layout drop down set for advanced and the connection drop down set for UDP. To connect to the Solo, your PC must be connected to the Solo's WiFi. Press the connect button. Mission Planner will connect to the Solo's Pixhawk and download all it's parameters. Once connected, you will get many more options in config/tuning.
-![MP Settings](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/mission_planner_settings.jpg)
-JPG
+![MP Settings](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/mp_settings.jpg)
+
 
 1. **Your solo should be in safe working order before you start**. It should not be malfunctioning or unreliable before you even begin. It must be up to date with the latest 3DR firmware. You cannot do this with a straight out of the box Solo. You must go through the full pre-flight update first on a new Solo.  Once your Solo is up to date and working well, you're ready to begin.
 
@@ -49,7 +49,7 @@ JPG
     
 
 11. **Reset parameters:** Connect with Mission Planner. Go to Config/Tuning > Full Parameter List. Press the _Reset To Defaults_ button and acknowledge any prompts.  The Pixhawk will reboot.  Shortly after, the controller will reconnect. You may need to reconnect Mission Planner if it does not reconnect on it's own.
-  ![MP Parameters](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/mission_planner_parameters.jpg)
+  ![MP Parameters](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/mp_parameters.jpg)
 
 12. **Load Solo Parameters:** Connect with Mission Planner. Go to Config/Tuning > Full Parameter List. Click the _load from file_ button.  Select and load the Solo parameters file (*.param) from the zip you downloaded earlier. Once the file loads, you'll probably see a lot parameter boxes in Mission Planner turn green, which is normal.  Next, press the _Write Params_ button.  Mission Planner will write all the new parameters to the Pixhawk. Once it is complete, you can disconnect and close Mission Planner.  Power cycle the Solo. It will reboot and reconnect to the controller.
 
