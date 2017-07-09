@@ -1,7 +1,7 @@
 ![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
 Installing Updates Using Solex
------------------------------------------------
+-------------------------------
 These instructions are for installing subsequent updates to the Solo. _This is NOT for first time installs of the Green Cube and ArduCopter master_. These instructions use the Solex application on Android.  No need for Mission Planner, WinSCP, Filezilla, SSH, or a complicated passwords.
 
 1. With your device connected to the internet: In the Solex menu all the way at the bottom, select `Firmware Updates`.
@@ -18,24 +18,24 @@ These instructions are for installing subsequent updates to the Solo. _This is N
 
 7. When prompted, power cycle the solo (which means turn it off and back on again).
 
-8a. If you've only installed a parameters package or IMX python package, the solo will reboot and reconnect as usual. Skip to step 10.
+8. If you've only installed a parameters package or IMX python package, the solo will reboot and reconnect as usual. Skip to step 12.
 
-8b. If you've installed a pixhawk firmware package:
+9. If you've installed a pixhawk firmware package:
     * The solo will reboot, then go into bootloader and flash the firmware.
     * Normally you will see disco lights while it's doing this. But if the LED driver isn't enabled, you may not. Don't worry. It's working.
     * Give it up to 5 minutes to process this awesomeness. You may hear some clicks as the Pixhawk reboots.
     * If after 3-5 minutes, it has not come back to life, power cycle the solo. Some users have had to do this 2-3 times, but it always works.
     
-8. **Installation complete!** After 3-5 minutes, it will come back to life, reconnecting with the controller and applications. 
+10. **Installation complete!** After 3-5 minutes, it will come back to life, reconnecting with the controller and applications. 
 
-9. If a parameter reset has been recommended: With the Solex app reconnected to the Solo, click the `Reset Params` button on the Firmware Update screen of Solex.  When prompted, power cycle the solo. Calibrations will need to be redone in step 11.
+11. If a parameter reset has been recommended: With the Solex app reconnected to the Solo, click the `Reset Params` button on the Firmware Update screen of Solex.  When prompted, power cycle the solo. Calibrations will need to be redone in step 11.
 
-10. **Connect and Check:** Turn the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, Tower, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
+12. **Connect and Check:** Turn the Solo back on. Connect with any and all apps you plan to use (3DR, Solex, Side Pilot, Tower, etc) and test functionality. Run the turtle/rabbit sliders for speed and pan all the way to rabbit and back down all the way to turtle. These sliders make changes to the parameters. Running the sliders up and down ensure those parameters are set the way they should be.  Go through all the settings. Touch every thing to set and verify everything. Do not assume these settings stuck from before. 
 
-11. **Calibrations:** If you reset the parameters, you will need to redo the calibrations. If anything seems unstable in flight, you should redo the calibrations. As of today, only the 3DR Solo app can do these functions. This is not yet in Solex.
+13. **Calibrations:** If you reset the parameters, you will need to redo the calibrations. If anything seems unstable in flight, you should redo the calibrations. As of today, only the 3DR Solo app can do these functions. This is not yet in Solex.
     * Do the level calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before clicking through to the next one. Once complete, reboot the Solo.
     * The compass calibration must be done outdoors and away from structures, vehicles, and other metal objects. This applies to any vehicle running any firmware, not just a Solo, and not just ArduCopter master. Once complete, reboot the Solo.
 
-12. **FLY!** Once all of the above is complete, you are ready to fly! You should make your first few flights in a safe, open, and clear area. Start off low and slow. Run through the basics to function test everything.  Make sure the Solo is operating smoothly, reliably, safely, and as intended.
+14. **FLY!** Once all of the above is complete, you are ready to fly! You should make your first few flights in a safe, open, and clear area. Start off low and slow. Run through the basics to function test everything.  Make sure the Solo is operating smoothly, reliably, safely, and as intended.
 
 [Back To Main](../master/README.md)
