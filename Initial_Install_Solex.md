@@ -7,7 +7,7 @@ These instructions are for _first time installs of the Green Cube and ArduCopter
 1. **Your solo should be in safe working order before you start**. It should not be malfunctioning or unreliable before you even begin. It must be up to date with the latest 3DR firmware. You cannot do this with a straight out of the box Solo. You must go through the full pre-flight update first on a new Solo.  Once your Solo is up to date and working well, you're ready to begin.
 
 2. **Update python files:** Before doing anything else, you must load the new python files onto the Solo's companion computer. This can be loaded with the Solex app's firmware update function really easily with a few clicks! Select the `IMX Python Files` package. If it it says "available", Solex will download it. Once it says "downloaded, click the file and select install. When prompted, power cycle the solo.  The files are compiled on reboot. It is critical that this step take places _before you install the Green Cube in your solo!_
-   ![Solex Packages](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/solex_Packages.png)
+   ![Solex Packages](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/Solex_Packages.png)
 
 3. **Remove the battery tray:** Remove the battery and pop off the GPS cover.  Then unscrew all the small black screws around the battery tray. The battery tray can now be lifted up.  Unplug the GPS from the carrier board.  Set the battery tray aside. We highly recommend you do not lose the screws.
    ![Battery Tray Screws](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/battery_tray_screws.jpg)
