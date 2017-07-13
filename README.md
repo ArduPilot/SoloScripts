@@ -10,14 +10,13 @@ A stock Solo uses a heavily customized branch of ArduCopter 3.3 circa 2015.  Sin
 The Firmware
 ------------
 The files listed above will get your Solo onto ArduCopter master. There is a zip file that contains everything for one easy download, which you can easily right-click above to download.  You can also go through individual files to see what they are and a history of the changes. The directories are as follows:
-* `Firmware` contains the ArduCopter firmware files. There may be more than one firmware file if there are more than one currently stable file for general use.
 * `IMX` contains files that should be uploaded to the Solo's companion computer.  These are usually python (*.py) files, and usually go in the /usr/bin/ directory.
 * `Parameters` contains ArduCopter parameter files applicable to the firmware. This is baked into the firmware as defaults now! So this is only for reference.
-* The Solo Beta full branch [repository can be found here.](https://github.com/Pedals2Paddles/ardupilot/tree/solomod-master)
+* The zip files contain the firmware files along with the IMX and parameter files. You should always use the most current version zip file when deciding which to use. The older ones are here for reference only.
 
 Releases
 ---------
-Tracking of the "official" Solo Beta releases can be found here in the GitHub releases list in the nav bar above or [here](https://github.com/Pedals2Paddles/SoloBeta/releases).  This is how the latest changes, additions, & subtractions will be documented in an organized manner. These "releases" document the files in the directories above (and the zip file).  
+Tracking of the "official" Solo Beta releases can be found here in the GitHub releases list in the nav bar above or [here](https://github.com/ArduPilot/SoloScripts/releases).  This is how the latest changes, additions, & subtractions will be documented in an organized manner. These "releases" document the files in the directories above (and the zip file).  
 
 
 The Hardware
