@@ -19,7 +19,7 @@ These instructions are for first time installs of the Green Cube and ArduCopter 
 
 2. 2. **Update python files:** Before doing anything else, you must load the new python files onto the Solo's companion computer. Tap 'First Time Bootloader'. When prompted, power cycle the solo.  The files are compiled on reboot. It is critical that this step take places _before you install the Green Cube in your solo!_
 
-   ![SidePilotScreenshot](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/SidePilot_Screenshot.jpg)
+   ![SidePilotScreenshot](../master/Misc/SidePilot_Screenshot.jpg)
 
 3. **Remove the battery tray:** Remove the battery and pop off the GPS cover.  Then unscrew all the small black screws around the battery tray. The battery tray can now be lifted up.  Unplug the GPS from the carrier board.  Set the battery tray aside. We highly recommend you do not lose the screws.
    ![Battery Tray Screws](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/battery_tray_screws.jpg)
