@@ -46,7 +46,7 @@ These instructions are for _first time installs of the Green Cube and ArduCopter
 12. **Calibrations:** Once all of this done, you will need to do a level calibration and a compass calibration. Solex v1.4.9 and higher now has these calibrations, making the 3DR Solo app no longer required for this step. In Solex, the "level calibration" is called IMU Calibration.
     * Do the level calibration first on a decently level surface, such as a table. For each orientation, place Solo down gently, and let it settle for about 5 seconds before clicking through to the next one. It must remain perfectly still when you push the button. Once calibration is complete, you must reboot the Solo.
     * The compass calibration must be done outdoors in an open area, away from structures, vehicles, and other metal objects. This applies to any vehicle running any firmware, not just a Solo, and not just ArduCopter master. Once calibration is complete, you must reboot the Solo.
-    ![Calibrations](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/solex_cal.jpg)
+    ![Calibrations](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/solex_cals.jpg)
 
 13. **FLY!** Once all of the above is complete, you are ready to fly! You should make your first few flights in a safe, open, and clear area. Start off low and slow. Run through the basics to function test everything.  Make sure the Solo is operating smoothly, reliably, safely, and as intended.
 
