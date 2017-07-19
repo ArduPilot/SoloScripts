@@ -4,11 +4,11 @@ Instructions
 ------------
 These instructions currently assume you already know how to use things like Mission Planner and WinSCP or Filezilla. This method is somewhat complicated compared to using Solex. But this does work. Please read carefully and follow all steps in order.
 
-Download the zip file for the version you wish to install from back on the [main page] (https://github.com/ArduPilot/SoloScripts). As of this writing, that is `ArduCopter_35-RC10.zip`. Save this zip file somewhere convenient and unzip it. In the zip, there are several files that will be used throughout this process.
-* A parameters file (*.parm). As of this writing, the file is `AC35-RC10_Solo_Parameters.parm` but may be updated in the future.
+Download the zip file for the version you wish to install from back on the [main page] (https://github.com/ArduPilot/SoloScripts). As of this writing, that is `ArduCopter_350.zip`. Save this zip file somewhere convenient and unzip it. In the zip, there are several files that will be used throughout this process.
+* A parameters file (*.parm). As of this writing, the file is `Solo_ArduCopter_3.5.0_Parameters.param` but may be updated in the future.
 * A directory of python files (*.py)
 * A wipe firmware file called `Wipe_Pixhawk_Firmware.px4`
-* An ArduCopter firmware file. As of this writing, the file is `AC35-RC10_Firmware.px4` but may be updated in the future.
+* An ArduCopter firmware file. As of this writing, the file is `ArduCopter_3.5.0_Firmware.px4` but may be updated in the future.
 
 These instructions use [WinSCP](https://winscp.net/eng/download.php) for moving files to/from the companion computer for Windows for file transfers. But the settings and process are basically the same for [Filezilla](https://filezilla-project.org/download.php?type=client) and other SFTP applications.  The settings and what the directory structures look like are pictured below:
   ![WinSCP Settings](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/winscp_settings.jpg)
