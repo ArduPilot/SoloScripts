@@ -1,5 +1,11 @@
 ![Logo](https://github.com/ArduPilot/SoloScripts/blob/master/Misc/APsolo.jpg)
 
+# Please vist Open Solo, the new home for all this good stuff. https://github.com/OpenSolo/documentation #
+
+***These instructions have been superceeded and are very old. They will be taken down shortly.  They are no longer valid and should not be followed.***
+
+---
+
 Instructions
 ------------
 These instructions currently assume you already know how to use things like Mission Planner and WinSCP or Filezilla. This method is somewhat complicated compared to using Solex. But this does work. Please read carefully and follow all steps in order.
